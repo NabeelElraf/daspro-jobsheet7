@@ -9,7 +9,7 @@ public class SIakadFor18 {
         double grade, highest = 0, lowest = 100;
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Enter the grade of the " + i + " student;");
+            System.out.print("Enter the grade of the " + i + " student;");
             grade = sc.nextDouble();
             if (grade > highest) {
                 highest = grade;
